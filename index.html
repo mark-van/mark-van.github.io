@@ -20,7 +20,7 @@
     <!-- my css -->
     <link rel="stylesheet" href="app.css">
     <title>Mark Van Genderen</title>
-    <link rel="shortcut icon" type="image/jpg" href="imgs/favicon.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="imgs/favicon.png" />
 </head>
 
 <body>
@@ -44,45 +44,52 @@
 
     <section class="container">
 
-        <div class="row align-items-center">
+        <div id="topDiv" class="row align-items-center">
             <div class="col-lg-6">
                 <!-- max size the headshot -->
-                <img id="headshot" class="img-fluid" src="imgs/Headshot.jpg" alt="">
+                <img id="headshot" class="img-fluid" src="https://lh3.googleusercontent.com/rM-ZM1rtJh_rzmfmDqX1yWtwE2KfdkZNks37rfapBS845NVUNQ66Q3RGwQ2siVSBhh4T0pWm6wa6F-Hfr2YopwUuPFu6l_pU74Q6Gzsg77memLIgUGPFoLAFIHkXmtgegynAz2MKOm4qCw8qMHIiXPbFIiQUCX7tOCLkvHtIpPESDHjCzI0penannLzmjQUqihe6jWH332c9zMd3VfYovPHHGwriApPDSnlDxIoopphw57w2pOBBWjIi8x04HLGBcAM2TUujXSjOmoF-P1UNcGGEU9jIR5bya9yovDtihJ5yMVRbYw1YrUDiIAqftNsgbTSPDQLSZOVz82OcXHc03qeYNrbg6VSrN_uuo3D74lWL3eNkLBL6sdBw-BCbb3kA69vzrpklh5o23xuBpK1razr14CXNeZr7LNQUnoGR00jX2EYfz50ljEpOhqVUqKac3OjosYKfbpqfUzUWO0Qv-dy28yXZdP3CS08Je0bJO-xBpDYkTPWETwbC_VDC-HzuZghgvJK-wAtB6zAZbXNySBZXLtMke9DmelLRDByO6cSIK3IxqCcu9pzmLvbcz0oX_lsbgW5dlakuvfj_RFdgAQ-huxCU2plMJoEmpzMPVN2ld608WR8BVcTpxrgRXGshg7iu_0IclDz53FhtnHNn9swlyZBnHdS964RAlG67Sc9YVkhFtRTDf1PrmVIY7Cmt4Mtp59J2Emp7h1uBbgMKDIvZ=w1204-h903-no?authuser=0" alt="">
             </div>
             <div class="col-lg-6">
                 <h3>Highlights</h3>
                 <p>
                     Hi, I'm Mark!
-                    - Third year electrical engineering student at UBC
-                    - Love breaking apart black boxes (or in this case a 'cloud') and understanding how they work
-                    - Passionate about computers, electronics, programming, and lifelong learning
-                    - Controls and Peripherals Sub-team Lead for UBC Thunderbike's electric motorcycle build
-                    - Completed courses on Software Construction (used Java), Data Structure and Algorithms (used C),
-                    and expect to complete an online web development course by end of June
-                    - Please see my resume for more!
+                <ul>
+                    <li>Third year electrical engineering student at UBC</li>
+                    <li>Love breaking apart black boxes and understanding how they work</li>
+                    <li>Passionate about computers, electronics, programming, and lifelong learning</li>
+                    <li>Controls and Peripherals Sub-team Lead for UBC Thunderbike's electric motorcycle build</li>
+                    <!-- _blank makes the document open in a new tab -->
+                    <li>See my resume for more: <a class="btn" href="docs/resume.pdf" target="_blank"
+                            role="button">RESUME</a><sup> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                                <path fill-rule="evenodd"
+                                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                            </svg></sup></li>
+                </ul>
                 </p>
             </div>
         </div>
-
 
         <p>
             <a id="Educationa"></a>
         <h2 id="Education">Education</h2>
         <h3>University of British Columbia</h3>
-        <h4>Bachelors Degree of Applied Science, Electrical Engineering </h4>
+        <h4>Bachelors Degree of Applied Science,<br> Electrical Engineering </h4>
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <ul>
+                    <li>Third year standing</li>
                     <li>Dean's Honour List, Year 2 </li>
                     <li>Key coursework: Circuit Analysis, Signals and Systems, Software Construction, Data Structure and
                         Algorithms, Introduction to Microcomputers</li>
                 </ul>
             </div>
-            <div class="col-lg-6 centerI" >
-                <img id = "ubc" class="img-fluid" src="imgs/ubc.png" alt="">
+            <div class="col-lg-6 centerI">
+                <img id="ubc" class="img-fluid" src="imgs/ubc.png" alt="">
             </div>
         </div>
-
 
         </p>
         <a id="Projectsa"></a>
@@ -90,13 +97,18 @@
         <h3>Metal Detector</h3>
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <p>• This device can sense whether a scanned metal is micro, small, medium, or large and ferrous or
-                    non-ferrous then alerts the user via an LCD screen and audio output. Completed with two peers.
-                    • Programmed PIC32 MCU with embedded c
-                    • Build uses the changes in inductance of a long metal coil to determine the size and type of metal
-                    detected.
-                    • Consulted PIC32 documentation to understand the microcontroller’s c library and port
-                    specifications.
+                <p>
+                <ul>
+                    <li>This device can sense whether a scanned metal is micro, small, medium, or large and ferrous or
+                        non-ferrous then alerts the user via an LCD screen and audio output. Completed with two peers.
+                    </li>
+                    <li>Programmed PIC32 MCU with embedded c</li>
+                    <li>Build uses the changes in inductance of a long metal coil to determine the size and type of
+                        metal
+                        detected</li>
+                    <li>Consulted PIC32 documentation to understand the microcontroller’s c library and port
+                        specifications.</li>
+                </ul>
                 </p>
             </div>
             <div class="col-lg-6">
@@ -113,10 +125,13 @@
         <h3>Water Level Detector</h3>
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <p>• Built and programed a capacitive based water level detector with two peers
-                    • Programmed on EFM8 microcontroller using the 8051 instruction set
-                    • The final product periodically communicated the cups water level via audio. We utilised filters,
-                    flash, memory, IRQs, and lookup tables to play clear and useful audio clips
+                <p>
+                <ul>
+                    <li>Built and programed a capacitive based water level detector with two peers</li>
+                    <li>Programmed on EFM8 microcontroller using the 8051 instruction set</li>
+                    <li>The final product periodically communicated the cups water level via audio. We utilised filters,
+                        flash, memory, IRQs, and lookup tables to play clear and useful audio clips</li>
+                </ul>
                 </p>
             </div>
             <div class="col-lg-6">
@@ -141,19 +156,23 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <p>
-                        Controls and Peripherals Sub-team Lead
-                        • The Controls and Peripherals electric motorcycle sub-team ensures vehicle meets all race
-                        requirements and safety standards, integrates all subsystems with primary circuit, and
-                        implements the user interface display. Main projects: Data acquisition system, controls
-                        schematics, DIY live telemetry system
-                        • Manages a team of 4-5 computer science and engineering students which entails weekly meetings,
-                        reliable communication on Slack, annual recruitment interviews, assigning clear and achievable
-                        tasks, and ensuring our sub-team goals are achieved on schedule
-                        • Determined optimal sensors purchases and layout on bike
-                        • Designed data acquisition system which meets our monetary and environmental constraints
-                        • Completed multiple iterations of wiring diagrams with CircuitMaker
-                        • A team member and I built a live telemetry prototype which uses a sensor, Arduino Uno,
-                        Raspberry Pi and web server to measure, store, and display data on the web in real time.
+                    <h4>Controls and Peripherals Sub-team Lead</h4>
+                    <ul>
+                        <li>The Controls and Peripherals electric motorcycle sub-team ensures vehicle meets all race
+                            requirements and safety standards, integrates all subsystems with primary circuit, and
+                            implements the user interface display. Main projects: Data acquisition system, controls
+                            schematics, DIY live telemetry system</li>
+                        <li> Manages a team of 4-5 computer science and engineering students which entails weekly
+                            meetings,
+                            reliable communication on Slack, annual recruitment interviews, assigning clear and
+                            achievable
+                            tasks, and ensuring our sub-team goals are achieved on schedule</li>
+                        <li>Determined optimal sensors purchases and layout on bike</li>
+                        <li>Designed data acquisition system which meets our monetary and environmental constraints</li>
+                        <li>Completed multiple iterations of wiring diagrams with CircuitMaker</li>
+                        <li>A team member and I built a live telemetry prototype which uses a sensor, Arduino Uno,
+                            Raspberry Pi and web server to measure, store, and display data on the web in real time</li>
+                    </ul>
                     </p>
                 </div>
                 <div class="col-lg-6">
@@ -193,12 +212,14 @@
 
 
     <footer>
-        copyright 2021
+        Copyright &COPY; 2021
     </footer>
     <!-- bootsrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+        <!-- java script copied from udemy online course by Colt Steele-->
+    
 </body>
 
 </html>
