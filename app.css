@@ -40,6 +40,11 @@ ul>li {
 }
 h3 {
     text-align: center;
+    /* color:#fbfbff; */
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* color: #59cd90; */
 }
 #flexT {
     width: 100%;
@@ -89,6 +94,8 @@ footer {
 }
 iframe {
     width: 100%;
+    border-radius: 2%;
+    border: 0.1em solid #c5283d;
 } 
 #ubc{
     max-height:200px;
@@ -101,3 +108,66 @@ iframe {
     align-items: center;
     justify-content: center;
 }
+h2 {
+    color: #7692ff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-top: 2px solid #c5283d;
+    border-bottom: 2px solid #c5283d;
+    width: 100%;
+    padding:1em;
+    /* border-top: #c5283d;
+    border-bottom: #c5283d; */
+}
+hr{
+    /* border-color: #c5283d; */
+    /* color: #c5283d; */
+    /* height: 10px; */
+    /* border: none;
+    height: 20px; */
+    /* Set the hr color */
+    /* color: #333; old IE */
+    /* background-color: #333; Modern Browsers */
+}
+#topDiv{
+    margin-top: 5%;
+}
+ul {
+    list-style: circle;
+}
+
+.btn {
+    background-color:#392f5a;
+    color: white;
+}
+
+.btn:hover {
+    background-color:#7692ff;
+    border-top: #c5283d;
+    color: white;
+}
+h4 {
+    margin-top: 5%;
+    font-style:italic;
+    text-align:center;
+}
+
+.navbar {
+    background: #392f5a;
+}
+
+@media (min-width:768px){
+    br{
+        display: none;
+    }
+    h4{
+        text-align:left;
+    }
+}
+/* 
+.navbar.scrolled {
+    background:#392f5a;
+} */
